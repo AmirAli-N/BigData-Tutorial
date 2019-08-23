@@ -1,0 +1,29 @@
+Product:
+	-Transfer currencies:
+		Transfer up to $6,500 abroad with the interbank exchange rate each month, and there will only be a small fee of 0.5% for anything above this amount. Premium and Metal customers can send unlimited money transfers each month.
+	-Recurring payments:
+		Whether you’re paying rent or splitting the bill, set up a recurring payment in seconds.
+	-Send and request money:
+		-No number required (by GPS): If you don’t have the other persons phone number, we’ll use GPS technology to show other Revolut users in your area. As soon as they pop up, just tap on their name to send or request money from them.
+		-Split fees
+		-Request money from people not on revolut
+		-Send free international transfers
+	-Savins strategy (Vault):
+		-Round up purchases (difference is deposited into vault)
+		-Recurring deposit into the vault
+	-Budgetting
+		-Set monthly goals
+		-Real-time spending tracking
+		-Spending analytics
+	-Stock trading
+		-Comission free trade (100 per month) for 300 listed stocks on NYSE and NASDAQ
+		-Fractional stocks
+		-Real-time exchange
+	-Crypto Exchange
+		-5 Crypto currencies
+		-Lock currency in app
+		
+		
+		
+		
+

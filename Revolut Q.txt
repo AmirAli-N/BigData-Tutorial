@@ -1,0 +1,119 @@
+Introduce Yourself:
+	I am a PhD graduate form Clemson University majored in Industrial Engineering and Operation Research. I have been a research assistant for the past five years and I have workd on multiple problems that can be broadly described as dynamic resource allocation problems. Typically, the problem settings produces observable data in real time, requires decision making in real time, and I have tried to solve these problem such that the solution can estimate future state of the system based on the observed data and optimize some performance measure in the long run. For example, in one problem I desinged a dispatching/relocating algorithm that relocated ambulances in a geographical area. It reacted to immediate and estimate of future demands to minimize the overall response time. I also workd on clinical trials where the observation of one patients response is used to derive the next drug allocation such that the best performing dosage is identified in the end.
+
+Business Operations Questions:
+- What complex problems have you solved before? How did you solve those problems?
+	#The most complex problem I solved was an optimal stopping problem in sequential learning setting. I was familiar with optimal stopping problems and the usual algorithms that are mostly implemented to find near optimal solutions. However, in this case, I was trying to demonstrate that these conventional algorithms are not effective when the underlying learning process is in fact learning an approximately flat line. I came across this system of partial differential equations called free boundary problems that were insensitive to the shape of the underlying function. The most challenging part was to learn about partial differential equations and different ways to solve them. I asked my mathematician friends to jump start me but their solutions were general algorithms that required time to learn the underlying material. I had this hunch that my problem has an specific structure and I should use it to my advantage. I kept digging around and finally found a solution that took advantage of the structure, was not complex, and I could implement it quite easily. We were able to demonstrate that our initial hypothesis, that some conventional algorithms fail to stop the learning process optimally, was correct. The research is now finished and submitted for review at INFORMS Service Science.
+
+- What challenge did you face in your last job and how did you over it?
+	#One of the challenging part of my research assistant years was the collaboration with another team of professors in the Public Health Department. We were tryint to analyze the effect of lifestyle interventions in diabetes trends in the U.S. We were a team of six researchers. Three were form the public health department and three were industrial engineers. I was part of the engineer team ready to tackle every problem analytically, and so we quickly built a simulation model, ran some codes, and throw multiple graphs and tables full of different results at them. The challenging part was that they did not understand any of our results in the format they were presented. I quickly learned that they were more interested in insights and how the interventions affect medical outcomes. We had to set up meetings just to design performance measures that were appropriate for a community of medical practitioners.
+
+- What are your strengths and weaknesses?
+	#I am comfortable moving out of my comfort zone to solve the problam I am facing. I was an inustrial engineer researching the application of reinforcement learning algorithms for health care problems so I was way out of conventional problems that industrial engineers are usually facing. I have learned that a challenging problem in one field may be a typical problem in another field. Some times it is enough to translate the problem into proper language and the solution presents itself. For example, I had this wierd continuous Bellman equations that I had to solve. I knew that we can transform them to a free boundary problem. But the free boundary problem was still hard to solve. I realized that the boundary problem could be standardized into a heat equation which is very typical problem for mechanical engieer students.
+	
+	#I have this problem that sometimes I cannot trust other peoples solutions (especially when it comes to codes other people have wrote). When I was in a team collaborating with the public health department, there was this simulation code by one of the team members who was not there anymore. I was responsible for adding new features to the code and changing some of the old part for new analysis. The code was commented but it was still messy and I could not understand it clearly. So, instead of contacting the person responsible for the code in the first place, I decided to rewrite the code entirely. This was not a wise move. The task I was given was pretty easy and everybody expected me to do it in three or four days, but I was developing a new code and so I was facing bugs and could not do the task in time. Eventually, I had to contact the guy and he guided me through his original code and I was able deliver the results. His help even led me to rewrite a more efficient code in my 2nd attempt. I leanred that even if my decision about rewritign the code was right, I should have contacted the person responsible first.
+	
+- Could you give an example of how you resolved an operational problem along with the solution that you used?
+	#My advisor is a theoretical guy. He does not like to solve problems that are only application oriented and have no theoretical challenge. He started a collaboration with the public health department hoping to use their data and experience to identify a challenging real problem. The problem that they eventually wanted to solve was to investigate the effects of lifestyle interventions in diabetes trends. This was not challenging because it was just a simulation code. He wanted out and was bored with the problem. I, on the other hand, liked the problem, because it had real data and was easy enough for me that I could without hurting my own theis writing. I told him, he does not have come to meetings and get bored with the discussions that had nothing to do with what he was interested in. I took charge of the problem and told him he just needs to read the final paper and approve it. The paper is now accepted for publication in Scientific Reports which is part of Nature jounranls, and he is happy and proud! 
+
+- What was the biggest problem that you solved?
+	#I had this problem of designing a dispatching/relocation policy for ambulance management in Mecklenburg County North Carolina wich has the city of Charlotte. The literature is pretty extensive in emergency vehicle management and altough practical studies are still valuable, it seems like all theoretical avenues are already taken. Since this problem made up a substantial part of my thesis, I had to find a way to have both application and theoretical contribution. I had access to real data, for years of emergency calls and responses, but I was struggling to find a theoretical contribution. After extensive literature review, I came across some conventioal guidlines like always send the closest ambulance that every body took for granted. By generalizing these guidlines, the relocation problem got more interesting, we had to think creatively to solve this new problem, and in the end we were able to show that generalizing these decisions may reduce the response time of ambulances.
+
+- Why Revolut?
+	#I have some close friends who are studying financial engineering or economics in new york at NYU and Stevens. They knew of Revolut and since I was in the job market they suggested to me to look it up. My understanding of digital banking was limited to paypal. I was fascinated when I learned of the service that revolut provides like easy and free currency exchange, easy international fund transfers, requesting money by just being next to the other person, and especially the ability to buy and sell digital money like bitcoins with every currency. I know revolut has debit and credit cards and you can also use your money to trade stocks. It seems like you have every banking and financial service in one app. I want a part in that.
+
+- Explain a technical concept
+	#I'd like to explain reinforcement learning as a form of machine learning. This is most appropriate for sequential learning when you observe live data and wand to quickly update your estimate about a measurement, function, or statistics. Imagine investigating an unkown phenomenon that can be represented as a function of random variables. Maybe performance of stock portfolios, or response of patients to a new drug. You can explore different options many times to learn about the performance of each option but you also have an end goal. You want to maximize your profit in case of stock portfolios or you want to know the best performing dose of a drug. Reinforcement learning balance the trade off between exploring new options to learn more about the unknown underlying function and exploiting best known estimate to maximize profit or minimize risk. With each data point, such that in the long run the underlying function is learned and while maximizing a cost/reward function.   
+	
+	
+- What did your manager like and hate while working with you?
+	#I was very honest and I think my advisor appreciated that. If I was not up to a job or could not deliver it in time, I immediately told ime without wasitng his time by low quality work or results. There were times that we agreed on a soft deadline but I soon realize that what we had in mind is not doable in that time period and we could adjust a new time line.
+	
+	#He did not like my approach to time management and he was right. He was quick to prioritize and identify the most important task that needs to be done. At first, I wanted to finish the task at hand and then move on to the next. We struggled at first but I learned that even in the research world it is important to prioritize to be successful. I now know that it is the absolut must in the business world.
+	
+- How would you describe yourself as a professional
+	#I am passionate about my work once I have a clear vision of the end goal and understand why it is important. In my research assistant years, I have also learened to be result oriented and always have the end goal in sight. I know that keeping the final goal in sight and constantly measuring your progress with respect to the result, derives the work in the right direction.
+	
+- What Revolut product would you launch first in this country and what user segment would you target?
+	#I would lunch perks and apple pay. I assume the us website is up to date and in the product section I did not see services like crypto exchange, apple pay, trading, mobile insurance, overseas medical insurance, or perks. I think a new technology like revolut can be huge success among youth and tech friendly people at first. I think of myself as one of these people and I would enjoy apple pay because I do not want to carry around a physical card with me. It would be fantastic If I could have just my celphone with me and be able to pay form a revolut account.
+	
+	I also think perks could be a big thing in places like new york or silicon valley. Students and tech workers are into discounts and coupans but there is usually no easy way to collect and spend them. That's why services like groupon or extension like honey catch on. Creating discounts or perks intelligently and in one app for different purchases will be huge in cities like new york or san francisco. Business would also enjoy this because they are always try to be trending with these people.
+	
+- What questions can you ask our CEO that would make him rethink the business?
+	#What about an smart honest or cheap way to setup a credit system? I have heard that millenials and young people do not rely on credit as much as the previous generation. I think that is because making sense of credit, its fees, its fines, the complex interest rate they charge, and the services they offer does not make sense for any one. It is to complex to understand and you get the sense that you are cheated out your money. How about an honest credit service that allows you to pay in advance and sets up a reasonabe way to ba able to pay the debt in time?
+
+	
+- How do you explain tech stuff to non-tech people?
+	#I would use high level language. Tray to convey the big picture and try to convince them of the tech involvement by the result not by the details of what the technology actually does. Technology usually replaces an old inefficient system and I think it is advantagous to remind people of the old dated system first. For example, explaining what revolut actually does might not make sense to people who are not familiar with digital baking. But you can explain that the application replaces the old currency exchange system with the touch of a finger. Instead of searching for the best and up to date exchange rate, revolut authomatically shows the exchange to you. Instead of searching for money changer pop ups and multiple exchanges to get your hands on the currency you need, revolut enables you to instantly covert the amount you need to the currency you need because there is no physicall movey involved.
+	
+- What was the most stressful experience at work?
+	#First time presentation in an international conference with a room full of people was intimidating. I was stressed out and could not remember the material I prepared in order. I wanted to talk fast and guid people through my slides so that they get the big piture of my problem and the solution I proposed, but because of stress I could not talk with confidence and keep audiences attension. 
+	
+	This was only improved after practice and repition. I tried to make mental notes about how to talk, how to pace myself through the presentation, and I learned just repeating the material and more mock up presentations could actually help a lot.
+	
+- How would you ensure good negotiations with partners?
+	#I think honesty is the most important factor in negotiations. I know one must sell himself in a negotiation and a big part of that is to demonstrate your strenghts but I think that poiting our weaknesses and the process, adjustments, or steps that we take to ensure that these weaknesses would not harm the partner's business in anyway is a key point in gaing trust and confidence of others.
+
+	I would also listen very carefully to the partner and would ensure that I explain to him very carefully every steps or considerations taken into acount becuase of his concerns. The partner should feel heard, his points should be validated, and he will be confident in our business if we demonstrate how we are going to take care of his concerns.
+
+- What were your past skills that you can contribute to this current role?
+	#I think my skills in programming, statistical analysis, machine learning, and most importantly problem solving can contribute to the current role in a meaningful way.
+	
+- Give an example of a successful project that you were part of. What was your role? What made the project successful in your view?
+	#In most my PhD projects, the people involved were just me and my advisor. However, I was involved in a collaboration with the public health department in order to analyze const-effectiveness of lifestyle interventions in diabetes trends. The team was comprised of three industrial engineer, 2 MDs and 1 Professor from the public health department. We were successfule in showing the that some lifestyle interventions reduce diabetes incidence and are cost effective as well. I was the lead technical designer of the simulation. I designed the simulation model, coded it in C++ and provide statistical analysis. I think the project was successful because it had a balanced team between technical desginers like myself and my advisor and medical practitionares. If the project was just left to us we could not design in it in a realistic way, and if it was just up to the MDs, they could not introduce the kind of technical analysis that we brought to the project.
+
+- What actions and support, in your experience, make a team function successfully?
+	#Communication: never assume every one has the same information, constantly update every body
+	#Delegation: understand strenghts and weaknesses of every team members
+	#Define role and plan of actions
+
+
+Data Scientist Questions:
+- If you have a binomial distribution with parameters a and b, what is the expected value?
+	#a*b if a and b represent the probability of success and the number of trials
+	
+- What is the difference between a supervised and unsupervised machine learning algo?
+	#In supervised learning the data is labled. The objective is known and we try to find the relationsheep between labled features and the objective.
+	#In unsupervised learning we do not have any labels. The objective is not known and we try to discover any pattern in the data
+	
+- You have a database of customer transactions and for some users you don’t have much data (1-2 transactions), and you want them to use Revolut’s services more. How would you analyse the data to do so, with such limited data on some users.
+	#Imputation
+	
+	#Classification
+	
+	#Oversampling
+
+- What is the difference between mean and median?
+	
+- Why is the mean better/preferred than the median?
+	#It is not the case usually. Mean is biased with respect to outliers that have the smallest and the largest values. Median is not.
+  
+- How can you escape/exit a python for-loop? 
+	Break exits the loop
+	Pass the current iteration without doing anything to the loop
+	Continue escapes the current iterations without running it
+	
+- What is PCA?
+	#principal component analysis. It explains the most variation in the data. it is basically sorting the eigen vectors of covariance matrix based on eigen values.
+	
+- Is there "switch" operator in Python?
+	There is.
+	
+- Do you know what co-operative filtering is?
+	Yes. Use other users to predict the outcome of a similar users.
+	
+- Which ML regularisation techniques do you know?
+	Ridge and LASSO
+	
+- What is the difference between random forest and gradient boosted trees?
+	
+- How to find out if a sample has a normal distribution?
+	#Kolmogrov-smirnov test for the same mean and variance
+	
+Business Development:
+- What you will do to reach 1 million clients?
+- Why do you want to make a move to a fintech startup?  
+
+
+
+
